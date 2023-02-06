@@ -1,12 +1,12 @@
 # Spell Correction using Language Model (LM)
-This experiment uses the n-Gram language model trained on the news genre of the Brown corpus to find the correct spelling of misspelled words in the **Birkbeck** corpus. Where n={1, 2, 3, 5, 10} and k={1, 5, 10}, the average success at k, is calculated for each n.
+This experiment uses the n-Gram language model trained on the news genre of the **Brown** corpus to find the correct spelling of misspelled words in the **Birkbeck** corpus. Where n={1, 2, 3, 5, 10} and k={1, 5, 10}, the average success at k, is calculated for each n.
 
 **Keywords:** Spell correction, Language Model, Corpus, n-Gram, Probability, Natural Language Processing.
 
 ## The Data
 The [APPLING1DAT.643](https://github.com/gloryodeyemi/COMP_8730_Assignment2/blob/main/Data/APPLING1DAT.643) file, out of the Birkbeck spelling error corpus by Roger Mitton was used for this experiment. They contain 198 entries of misspelled words in total and the correct equivalent of these words.
 
-The Brown corpus contains 100554 words and 4623 sentences.
+The Brown corpus contains 100,554 words and 4,623 sentences.
 
 ## Requirements
 You can find the modules and libraries used in this project in the [requirement.txt](https://github.com/gloryodeyemi/COMP_8730_Assignment1/blob/main/requirements.txt) file. You can also run the code below.
